@@ -9,18 +9,13 @@
     "watch-test": "jest --watch"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SohamShinde160/Namaste-React-2.0.git"
+    "type": "git"
   },
   "keywords": [
     "namaste-react"
   ],
-  "author": "Soham S Shinde",
+  "author": "Vikash kumar singh",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SohamShinde160/Namaste-React-2.0/issues"
-  },
-  "homepage": "https://github.com/SohamShinde160/Namaste-React-2.0#readme",
   "devDependencies": {
     "@babel/core": "^7.24.7",
     "@babel/preset-env": "^7.24.7",

@@ -25,9 +25,6 @@ const RestaurantMenuCard = () => {
 
   const { itemCards } =
     resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card;
-  // console.log(itemCards);
-
-  console.log(resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards);
 
   const categories =
     resInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter(
@@ -35,9 +32,6 @@ const RestaurantMenuCard = () => {
         c.card?.card?.["@type"] ===
         "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
     );
-  console.log("category below");
-  console.log(categories);
-  console.log("category above");
 
   return (
     <div className="menu">
@@ -78,16 +72,17 @@ const RestaurantMenuCard = () => {
         </div>
       </div>
       <div className="boxgray"></div>
-      {/* Categories Accordion */}
-      {
-        categories.map((category , index) => {
-          return <ResCategory key={category?.card?.card?.title
-          } data={category?.card?.card}
+
+      {categories.map((category, index) => {
+        return (
+          <ResCategory
+            key={category?.card?.card?.title}
+            data={category?.card?.card}
             showItems={index === showIndex ? true : false}
-            setShowIndex={()=> setShowIndex(index)}
+            setShowIndex={() => setShowIndex(index)}
           />
-        })
-      }
+        );
+      })}
     </div>
   );
 };

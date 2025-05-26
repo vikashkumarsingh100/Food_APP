@@ -1,4 +1,4 @@
-import React ,{ lazy , Suspense, useEffect, useState} from "react";
+import React, { lazy, Suspense, useEffect, useState } from "react";
 import ReactDOM from "react-dom/client";
 import Header from "./components/Header";
 import Body from "./components/Body";
@@ -14,31 +14,30 @@ import Cart from "./components/Cart";
 // import Grocery from "./components/Grocery";
 
 const AppLayout = () => {
-
-  const [loggedinInfo , setLoggedinInfo] = useState()
+  const [loggedinInfo, setLoggedinInfo] = useState();
 
   useEffect(() => {
     const newData = {
-      name: "Soham S ",
+      name: "Vikash Kumar Singh",
     };
     setLoggedinInfo(newData.name);
-  },[]);
+  }, []);
 
   return (
     <Provider store={appStore}>
-      <userContext.Provider value={{ isLoggedUser: loggedinInfo, setLoggedinInfo }}>
-       <div className="app">
-        <Header />
-        <Outlet />
-      </div>
+      <userContext.Provider
+        value={{ isLoggedUser: loggedinInfo, setLoggedinInfo }}
+      >
+        <div className="app">
+          <Header />
+          <Outlet />
+        </div>
       </userContext.Provider>
     </Provider>
   );
 };
 
-
-
-const Grocery = lazy(() =>  import("./components/Grocery") );
+const Grocery = lazy(() => import("./components/Grocery"));
 
 const appRouter = createBrowserRouter([
   {

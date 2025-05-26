@@ -1,11 +1,9 @@
-import React, { useState } from 'react'
-import Itemlist from './Itemlist';
+import React, { useState } from "react";
+import Itemlist from "./Itemlist";
 
 const ResCategory = ({ data, showItems, setShowIndex }) => {
   const handlerClick = () => {
-    console.log("clicked");
-    // setShowItems(!showItems);
-    setShowIndex()
+    setShowIndex();
   };
 
   return (

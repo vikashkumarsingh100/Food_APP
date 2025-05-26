@@ -1,12 +1,9 @@
-import RestaurantCard, {withPromotedLabel} from "./RestaurantCard";
-import { useEffect, useState , useContext} from "react";
+import RestaurantCard, { withPromotedLabel } from "./RestaurantCard";
+import { useEffect, useState, useContext } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utilis/useOnlineStatus";
 import userContext from "../utilis/UserContext";
-
-// definition of state react variable
-// ! Whenever state variable updates, react triggers a reconciliation cycle (re-renders the component)
 
 const Body = () => {
   const [listOfRestaurant, setlistOfRestaurant] = useState([]);
@@ -15,39 +12,36 @@ const Body = () => {
 
   const RestaurantCardPromoted = withPromotedLabel(RestaurantCard);
 
-  console.log("body rendering", listOfRestaurant);
   useEffect(() => {
     fetchData();
   }, []);
 
   const fetchData = async () => {
-    const data = await fetch(
-      "https://www.swiggy.com/dapi/restaurants/list/v5?lat=19.0759837&lng=72.8776559&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
-    );
-    const json = await data.json();
-    console.log(
-      json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
-    );
+    const swiggyApiUrl =
+      "https://www.swiggy.com/dapi/restaurants/list/v5?lat=19.0759837&lng=72.8776559&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING";
+    const proxyUrl = `https://proxy.corsfix.com/?${encodeURIComponent(
+      swiggyApiUrl
+    )}`;
+    const result = await fetch(proxyUrl);
+    const json = await result.json();
+
     setlistOfRestaurant(
-      // optional chaining:-
-      json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
+      json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
     setFilteredRestaurant(
-      json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
+      // json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
+      json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
   };
 
   const onlineStatus = useOnlineStatus();
   if (onlineStatus === false) {
-    return (<h1>Looks like you are offline !! check your Internet Connection</h1>)
+    return (
+      <h1>Looks like you are offline !! check your Internet Connection</h1>
+    );
   }
 
-  const {isLoggedUser ,setLoggedinInfo} = useContext(userContext)
-
-  // conditional rendering - Rendering on the basis of Condition
-  // if (listOfRestaurant.length === 0) {
-  //   return <Shimmer/>
-  // }
+  const { isLoggedUser, setLoggedinInfo } = useContext(userContext);
 
   return listOfRestaurant.length === 0 ? (
     <Shimmer />
@@ -68,7 +62,6 @@ const Body = () => {
           <button
             className="btn"
             onClick={() => {
-              // filter the restaurant cards & update the UI
               const filteredRestaurant = listOfRestaurant.filter((res) => {
                 res.info.name.toLowerCase().includes(searchText.toLowerCase());
               });

@@ -2,13 +2,13 @@ import { CDN_URL } from "../utilis/constants";
 
 const RestaurantCard = (props) => {
   const { resData } = props;
-  // console.log(resData);
+
   const { cloudinaryImageId, name, cuisines, avgRating, costForTwo, sla } =
     resData?.info;
   return (
     <div className="res-card" data-testid="resCard">
       <img
-        style={{ width: "100%", height: "140px" }}
+        style={{ width: "100%", height: "200px" }}
         alt="food-logo"
         src={CDN_URL + cloudinaryImageId}
       />
@@ -23,18 +23,17 @@ const RestaurantCard = (props) => {
   );
 };
 
-  // Higher Order Component
-  // input = <RestaurantCard/>  ==> <RestaurantCardPromoted/>
-
-  export const withPromotedLabel = (RestaurantCard) => {
-    return (props) => {
-      return (
-        <div>
-          <label className="absolute text-white bg-green-700 m-1 rounded-lg p-1">OPEN</label>
-          <RestaurantCard {...props} />
-        </div>
-      );
-    };
+export const withPromotedLabel = (RestaurantCard) => {
+  return (props) => {
+    return (
+      <div>
+        <label className="absolute text-white bg-green-700 m-1 rounded-lg p-1">
+          OPEN
+        </label>
+        <RestaurantCard {...props} />
+      </div>
+    );
   };
+};
 
 export default RestaurantCard;
