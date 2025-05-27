@@ -4,7 +4,7 @@
   "description": "These is Namaste React Episode 13 - Time for the Test",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --public-url ./",
+    "build": "parcel build index.html --public-url ./ --no-source-maps",
     "test": "jest",
     "watch-test": "jest --watch",
     "predeploy": "npm run build",
