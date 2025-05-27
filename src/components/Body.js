@@ -17,12 +17,19 @@ const Body = () => {
   }, []);
 
   const fetchData = async () => {
-    const swiggyApiUrl =
-      "https://www.swiggy.com/dapi/restaurants/list/v5?lat=19.0759837&lng=72.8776559&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING";
-    const proxyUrl = `https://proxy.corsfix.com/?${encodeURIComponent(
-      swiggyApiUrl
-    )}`;
-    const result = await fetch(proxyUrl);
+    const swiggyURL = encodeURIComponent(
+      "https://www.swiggy.com/dapi/restaurants/list/v5?lat=19.0759837&lng=72.8776559&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
+    );
+
+    const result = await fetch(
+      `https://api.allorigins.win/raw?url=${swiggyURL}`
+    );
+    // const swiggyApiUrl =
+    //   "https://www.swiggy.com/dapi/restaurants/list/v5?lat=19.0759837&lng=72.8776559&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING";
+    // const proxyUrl = `https://proxy.corsfix.com/?${encodeURIComponent(
+    //   swiggyApiUrl
+    // )}`;
+    // const result = await fetch(proxyUrl);
     const json = await result.json();
 
     setlistOfRestaurant(
