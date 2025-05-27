@@ -142,14 +142,14 @@
       this[globalName] = mainExports;
     }
   }
-})({"farZc":[function(require,module,exports) {
+})({"km5uZ":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
 var HMR_USE_SSE = false;
-module.bundle.HMR_BUNDLE_ID = "890e741a975ef6c8";
+module.bundle.HMR_BUNDLE_ID = "0a8ecb283d214d75";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, HMR_USE_SSE, chrome, browser, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -2944,11 +2944,11 @@ process.umask = function() {
     return 0;
 };
 
-},{}],"8lqZg":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$20e5 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{}],"bB7Pu":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$e4e3 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$20e5.prelude(module);
+$parcel$ReactRefreshHelpers$e4e3.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -2957,25 +2957,25 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
-var _header = require("./components/Header");
+var _header = require("./src/components/Header");
 var _headerDefault = parcelHelpers.interopDefault(_header);
-var _body = require("./components/Body");
+var _body = require("./src/components/Body");
 var _bodyDefault = parcelHelpers.interopDefault(_body);
 var _reactRouterDom = require("react-router-dom");
-var _about = require("./components/About");
+var _about = require("./src/components/About");
 var _aboutDefault = parcelHelpers.interopDefault(_about);
-var _contact = require("./components/Contact");
+var _contact = require("./src/components/Contact");
 var _contactDefault = parcelHelpers.interopDefault(_contact);
-var _error = require("./components/Error");
+var _error = require("./src/components/Error");
 var _errorDefault = parcelHelpers.interopDefault(_error);
-var _restaurantMenuCard = require("./components/RestaurantMenuCard");
+var _restaurantMenuCard = require("./src/components/RestaurantMenuCard");
 var _restaurantMenuCardDefault = parcelHelpers.interopDefault(_restaurantMenuCard);
-var _userContext = require("./utilis/UserContext");
+var _userContext = require("./src/utilis/UserContext");
 var _userContextDefault = parcelHelpers.interopDefault(_userContext);
 var _reactRedux = require("react-redux");
-var _appStore = require("./utilis/appStore");
+var _appStore = require("./src/utilis/appStore");
 var _appStoreDefault = parcelHelpers.interopDefault(_appStore);
-var _cart = require("./components/Cart");
+var _cart = require("./src/components/Cart");
 var _cartDefault = parcelHelpers.interopDefault(_cart);
 var _s = $RefreshSig$();
 // import Grocery from "./components/Grocery";
@@ -2999,41 +2999,41 @@ const AppLayout = ()=>{
                 className: "app",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
-                        fileName: "src/index.js",
+                        fileName: "index.js",
                         lineNumber: 32,
                         columnNumber: 11
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Outlet), {}, void 0, false, {
-                        fileName: "src/index.js",
+                        fileName: "index.js",
                         lineNumber: 33,
                         columnNumber: 11
                     }, undefined)
                 ]
             }, void 0, true, {
-                fileName: "src/index.js",
+                fileName: "index.js",
                 lineNumber: 31,
                 columnNumber: 9
             }, undefined)
         }, void 0, false, {
-            fileName: "src/index.js",
+            fileName: "index.js",
             lineNumber: 28,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
-        fileName: "src/index.js",
+        fileName: "index.js",
         lineNumber: 27,
         columnNumber: 5
     }, undefined);
 };
 _s(AppLayout, "Dhib2bwY3M5a25onU6ze5ar1Crc=");
 _c = AppLayout;
-const Grocery = /*#__PURE__*/ (0, _react.lazy)(()=>require("680a1e062b130c71"));
+const Grocery = /*#__PURE__*/ (0, _react.lazy)(()=>require("f5509b04ef748b35"));
 _c1 = Grocery;
 const appRouter = (0, _reactRouterDom.createBrowserRouter)([
     {
         path: "/",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {}, void 0, false, {
-            fileName: "src/index.js",
+            fileName: "index.js",
             lineNumber: 45,
             columnNumber: 14
         }, undefined),
@@ -3041,7 +3041,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
             {
                 path: "/",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bodyDefault.default), {}, void 0, false, {
-                    fileName: "src/index.js",
+                    fileName: "index.js",
                     lineNumber: 49,
                     columnNumber: 18
                 }, undefined)
@@ -3049,7 +3049,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
             {
                 path: "/about",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
-                    fileName: "src/index.js",
+                    fileName: "index.js",
                     lineNumber: 53,
                     columnNumber: 18
                 }, undefined)
@@ -3057,7 +3057,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
             {
                 path: "/contact",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
-                    fileName: "src/index.js",
+                    fileName: "index.js",
                     lineNumber: 57,
                     columnNumber: 18
                 }, undefined)
@@ -3065,7 +3065,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
             {
                 path: "/cart",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cartDefault.default), {}, void 0, false, {
-                    fileName: "src/index.js",
+                    fileName: "index.js",
                     lineNumber: 61,
                     columnNumber: 18
                 }, undefined)
@@ -3076,17 +3076,17 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                     fallback: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                         children: "Grocery loading"
                     }, void 0, false, {
-                        fileName: "src/index.js",
+                        fileName: "index.js",
                         lineNumber: 66,
                         columnNumber: 31
                     }, void 0),
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Grocery, {}, void 0, false, {
-                        fileName: "src/index.js",
+                        fileName: "index.js",
                         lineNumber: 67,
                         columnNumber: 13
                     }, undefined)
                 }, void 0, false, {
-                    fileName: "src/index.js",
+                    fileName: "index.js",
                     lineNumber: 66,
                     columnNumber: 11
                 }, undefined)
@@ -3094,14 +3094,14 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
             {
                 path: "/restaurant/:resId",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _restaurantMenuCardDefault.default), {}, void 0, false, {
-                    fileName: "src/index.js",
+                    fileName: "index.js",
                     lineNumber: 73,
                     columnNumber: 18
                 }, undefined)
             }
         ],
         errorElement: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _errorDefault.default), {}, void 0, false, {
-            fileName: "src/index.js",
+            fileName: "index.js",
             lineNumber: 76,
             columnNumber: 19
         }, undefined)
@@ -3111,7 +3111,7 @@ const root = (0, _clientDefault.default).createRoot(document.getElementById("roo
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.RouterProvider), {
     router: appRouter
 }, void 0, false, {
-    fileName: "src/index.js",
+    fileName: "index.js",
     lineNumber: 81,
     columnNumber: 13
 }, undefined));
@@ -3119,12 +3119,12 @@ var _c, _c1;
 $RefreshReg$(_c, "AppLayout");
 $RefreshReg$(_c1, "Grocery");
 
-  $parcel$ReactRefreshHelpers$20e5.postlude(module);
+  $parcel$ReactRefreshHelpers$e4e3.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","react-router-dom":"9xmpe","react-redux":"62sf7","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/Header":"hsJbF","./components/Body":"8yaV8","./components/About":"9R1Eu","./components/Contact":"cgAOG","./components/Error":"kvula","./components/RestaurantMenuCard":"4oTYQ","./utilis/UserContext":"lW7pZ","./utilis/appStore":"52Bts","./components/Cart":"h8J3U","680a1e062b130c71":"30ENU"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./src/components/Header":"hsJbF","./src/components/Body":"8yaV8","react-router-dom":"9xmpe","./src/components/About":"9R1Eu","./src/components/Contact":"cgAOG","./src/components/Error":"kvula","./src/components/RestaurantMenuCard":"4oTYQ","./src/utilis/UserContext":"lW7pZ","react-redux":"62sf7","./src/utilis/appStore":"52Bts","./src/components/Cart":"h8J3U","f5509b04ef748b35":"kduSJ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -27367,7 +27367,186 @@ module.exports = require("ef03b89c8fe2794e");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{}],"9xmpe":[function(require,module,exports) {
+},{}],"hsJbF":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$bfed = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$bfed.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _reactRouterDom = require("react-router-dom");
+var _constants = require("../utilis/constants");
+var _react = require("react");
+var _useOnlineStatus = require("../utilis/useOnlineStatus");
+var _useOnlineStatusDefault = parcelHelpers.interopDefault(_useOnlineStatus);
+var _userContext = require("../utilis/UserContext");
+var _userContextDefault = parcelHelpers.interopDefault(_userContext);
+var _reactRedux = require("react-redux");
+var _s = $RefreshSig$();
+const Header = ()=>{
+    _s();
+    const [btnName, setBtnName] = (0, _react.useState)("Login");
+    const onlineStatus = (0, _useOnlineStatusDefault.default)();
+    const { isLoggedUser } = (0, _react.useContext)((0, _userContextDefault.default));
+    const cartItems = (0, _reactRedux.useSelector)((store)=>store.cart.items);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "header",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "logo-container",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    className: "logo",
+                    src: (0, _constants.LOGO_URL),
+                    alt: "logo"
+                }, void 0, false, {
+                    fileName: "src/components/Header.js",
+                    lineNumber: 16,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/Header.js",
+                lineNumber: 15,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "nav-items",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: [
+                                "Online Status: ",
+                                onlineStatus ? "\u2714" : "\u274C",
+                                " "
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/Header.js",
+                            lineNumber: 20,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "/",
+                                children: "Home"
+                            }, void 0, false, {
+                                fileName: "src/components/Header.js",
+                                lineNumber: 22,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/Header.js",
+                            lineNumber: 21,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "/about",
+                                children: "About Us"
+                            }, void 0, false, {
+                                fileName: "src/components/Header.js",
+                                lineNumber: 25,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/Header.js",
+                            lineNumber: 24,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "/contact",
+                                children: "Contact Us"
+                            }, void 0, false, {
+                                fileName: "src/components/Header.js",
+                                lineNumber: 28,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/Header.js",
+                            lineNumber: 27,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "/grocery",
+                                children: "Grocery"
+                            }, void 0, false, {
+                                fileName: "src/components/Header.js",
+                                lineNumber: 31,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/Header.js",
+                            lineNumber: 30,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                            className: "p-2 bg-green-500 rounded-lg",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "/cart",
+                                children: [
+                                    "Cart(",
+                                    cartItems.length,
+                                    " items)"
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/Header.js",
+                                lineNumber: 34,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/Header.js",
+                            lineNumber: 33,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                            className: "btn",
+                            onClick: ()=>{
+                                btnName === "Login" ? setBtnName(isLoggedUser) : setBtnName(isLoggedUser);
+                            },
+                            children: btnName
+                        }, void 0, false, {
+                            fileName: "src/components/Header.js",
+                            lineNumber: 36,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/Header.js",
+                    lineNumber: 19,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/Header.js",
+                lineNumber: 18,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Header.js",
+        lineNumber: 14,
+        columnNumber: 5
+    }, undefined);
+};
+_s(Header, "0isaHcjdTNE1VzHDso6T3GYqLRM=", false, function() {
+    return [
+        (0, _useOnlineStatusDefault.default),
+        (0, _reactRedux.useSelector)
+    ];
+});
+_c = Header;
+exports.default = Header;
+var _c;
+$RefreshReg$(_c, "Header");
+
+  $parcel$ReactRefreshHelpers$bfed.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"9xmpe","../utilis/constants":"aff2a","react":"21dqq","../utilis/useOnlineStatus":"khxBw","../utilis/UserContext":"lW7pZ","react-redux":"62sf7","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9xmpe":[function(require,module,exports) {
 /**
  * React Router DOM v6.23.1
  *
@@ -34090,7 +34269,211 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"62sf7":[function(require,module,exports) {
+},{}],"aff2a":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "CDN_URL", ()=>CDN_URL);
+parcelHelpers.export(exports, "IMG_URL", ()=>IMG_URL);
+parcelHelpers.export(exports, "LOGO_URL", ()=>LOGO_URL);
+parcelHelpers.export(exports, "MENU_API", ()=>MENU_API);
+const CDN_URL = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/";
+const IMG_URL = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/";
+const LOGO_URL = "https://static.vecteezy.com/system/resources/previews/008/687/818/non_2x/food-delivery-logo-free-vector.jpg";
+const MENU_API = "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=19.0759837&lng=72.8776559&restaurantId=";
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"khxBw":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$1a33 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$1a33.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+var _s = $RefreshSig$();
+const useOnlineStatus = ()=>{
+    _s();
+    const [onlineStatus, setOnlineStatus] = (0, _react.useState)(true);
+    // CHECK IF ONLINE , RETURN ONLINE STATUS
+    // ONLINE STATUS IS A BOOLEAN => TRUE or FALSE
+    (0, _react.useEffect)(()=>{
+        window.addEventListener("offline", ()=>{
+            setOnlineStatus(false);
+        });
+        window.addEventListener("online", ()=>{
+            setOnlineStatus(true);
+        });
+    }, []);
+    return onlineStatus;
+};
+_s(useOnlineStatus, "qDLN4CKTUyO1Uktrrx41NP8Q2H4=");
+exports.default = useOnlineStatus;
+
+  $parcel$ReactRefreshHelpers$1a33.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"km3Ru":[function(require,module,exports) {
+"use strict";
+var Refresh = require("7422ead32dcc1e6b");
+function debounce(func, delay) {
+    {
+        let timeout = undefined;
+        let lastTime = 0;
+        return function(args) {
+            // Call immediately if last call was more than the delay ago.
+            // Otherwise, set a timeout. This means the first call is fast
+            // (for the common case of a single update), and subsequent updates
+            // are batched.
+            let now = Date.now();
+            if (now - lastTime > delay) {
+                lastTime = now;
+                func.call(null, args);
+            } else {
+                clearTimeout(timeout);
+                timeout = setTimeout(function() {
+                    timeout = undefined;
+                    lastTime = Date.now();
+                    func.call(null, args);
+                }, delay);
+            }
+        };
+    }
+}
+var enqueueUpdate = debounce(function() {
+    Refresh.performReactRefresh();
+}, 30);
+// Everthing below is either adapted or copied from
+// https://github.com/facebook/metro/blob/61de16bd1edd7e738dd0311c89555a644023ab2d/packages/metro/src/lib/polyfills/require.js
+// MIT License - Copyright (c) Facebook, Inc. and its affiliates.
+module.exports.prelude = function(module1) {
+    window.$RefreshReg$ = function(type, id) {
+        Refresh.register(type, module1.id + " " + id);
+    };
+    window.$RefreshSig$ = Refresh.createSignatureFunctionForTransform;
+};
+module.exports.postlude = function(module1) {
+    if (isReactRefreshBoundary(module1.exports)) {
+        registerExportsForReactRefresh(module1);
+        if (module1.hot) {
+            module1.hot.dispose(function(data) {
+                if (Refresh.hasUnrecoverableErrors()) window.location.reload();
+                data.prevExports = module1.exports;
+            });
+            module1.hot.accept(function(getParents) {
+                var prevExports = module1.hot.data.prevExports;
+                var nextExports = module1.exports;
+                // Since we just executed the code for it, it's possible
+                // that the new exports make it ineligible for being a boundary.
+                var isNoLongerABoundary = !isReactRefreshBoundary(nextExports);
+                // It can also become ineligible if its exports are incompatible
+                // with the previous exports.
+                // For example, if you add/remove/change exports, we'll want
+                // to re-execute the importing modules, and force those components
+                // to re-render. Similarly, if you convert a class component
+                // to a function, we want to invalidate the boundary.
+                var didInvalidate = shouldInvalidateReactRefreshBoundary(prevExports, nextExports);
+                if (isNoLongerABoundary || didInvalidate) {
+                    // We'll be conservative. The only case in which we won't do a full
+                    // reload is if all parent modules are also refresh boundaries.
+                    // In that case we'll add them to the current queue.
+                    var parents = getParents();
+                    if (parents.length === 0) {
+                        // Looks like we bubbled to the root. Can't recover from that.
+                        window.location.reload();
+                        return;
+                    }
+                    return parents;
+                }
+                enqueueUpdate();
+            });
+        }
+    }
+};
+function isReactRefreshBoundary(exports) {
+    if (Refresh.isLikelyComponentType(exports)) return true;
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    return false;
+    var hasExports = false;
+    var areAllExportsComponents = true;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        hasExports = true;
+        if (key === "__esModule") continue;
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) // Don't invoke getters for CJS as they may have side effects.
+        return false;
+        var exportValue = exports[key];
+        if (!Refresh.isLikelyComponentType(exportValue)) areAllExportsComponents = false;
+    }
+    return hasExports && areAllExportsComponents;
+}
+function shouldInvalidateReactRefreshBoundary(prevExports, nextExports) {
+    var prevSignature = getRefreshBoundarySignature(prevExports);
+    var nextSignature = getRefreshBoundarySignature(nextExports);
+    if (prevSignature.length !== nextSignature.length) return true;
+    for(var i = 0; i < nextSignature.length; i++){
+        if (prevSignature[i] !== nextSignature[i]) return true;
+    }
+    return false;
+}
+// When this signature changes, it's unsafe to stop at this refresh boundary.
+function getRefreshBoundarySignature(exports) {
+    var signature = [];
+    signature.push(Refresh.getFamilyByType(exports));
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    // (This is important for legacy environments.)
+    return signature;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        if (key === "__esModule") continue;
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) continue;
+        var exportValue = exports[key];
+        signature.push(key);
+        signature.push(Refresh.getFamilyByType(exportValue));
+    }
+    return signature;
+}
+function registerExportsForReactRefresh(module1) {
+    var exports = module1.exports, id = module1.id;
+    Refresh.register(exports, id + " %exports%");
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    // (This is important for legacy environments.)
+    return;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) continue;
+        var exportValue = exports[key];
+        var typeID = id + " %exports% " + key;
+        Refresh.register(exportValue, typeID);
+    }
+}
+
+},{"7422ead32dcc1e6b":"786KC"}],"lW7pZ":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$9b5f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$9b5f.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _react = require("react");
+const userContext = /*#__PURE__*/ (0, _react.createContext)({
+    isLoggedUser: "Default User"
+});
+exports.default = userContext;
+
+  $parcel$ReactRefreshHelpers$9b5f.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"62sf7":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Provider", ()=>Provider_default);
@@ -35165,390 +35548,7 @@ module.exports = require("374a059340689e89");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{"8b38fc6c74f16e20":"21dqq"}],"km3Ru":[function(require,module,exports) {
-"use strict";
-var Refresh = require("7422ead32dcc1e6b");
-function debounce(func, delay) {
-    {
-        let timeout = undefined;
-        let lastTime = 0;
-        return function(args) {
-            // Call immediately if last call was more than the delay ago.
-            // Otherwise, set a timeout. This means the first call is fast
-            // (for the common case of a single update), and subsequent updates
-            // are batched.
-            let now = Date.now();
-            if (now - lastTime > delay) {
-                lastTime = now;
-                func.call(null, args);
-            } else {
-                clearTimeout(timeout);
-                timeout = setTimeout(function() {
-                    timeout = undefined;
-                    lastTime = Date.now();
-                    func.call(null, args);
-                }, delay);
-            }
-        };
-    }
-}
-var enqueueUpdate = debounce(function() {
-    Refresh.performReactRefresh();
-}, 30);
-// Everthing below is either adapted or copied from
-// https://github.com/facebook/metro/blob/61de16bd1edd7e738dd0311c89555a644023ab2d/packages/metro/src/lib/polyfills/require.js
-// MIT License - Copyright (c) Facebook, Inc. and its affiliates.
-module.exports.prelude = function(module1) {
-    window.$RefreshReg$ = function(type, id) {
-        Refresh.register(type, module1.id + " " + id);
-    };
-    window.$RefreshSig$ = Refresh.createSignatureFunctionForTransform;
-};
-module.exports.postlude = function(module1) {
-    if (isReactRefreshBoundary(module1.exports)) {
-        registerExportsForReactRefresh(module1);
-        if (module1.hot) {
-            module1.hot.dispose(function(data) {
-                if (Refresh.hasUnrecoverableErrors()) window.location.reload();
-                data.prevExports = module1.exports;
-            });
-            module1.hot.accept(function(getParents) {
-                var prevExports = module1.hot.data.prevExports;
-                var nextExports = module1.exports;
-                // Since we just executed the code for it, it's possible
-                // that the new exports make it ineligible for being a boundary.
-                var isNoLongerABoundary = !isReactRefreshBoundary(nextExports);
-                // It can also become ineligible if its exports are incompatible
-                // with the previous exports.
-                // For example, if you add/remove/change exports, we'll want
-                // to re-execute the importing modules, and force those components
-                // to re-render. Similarly, if you convert a class component
-                // to a function, we want to invalidate the boundary.
-                var didInvalidate = shouldInvalidateReactRefreshBoundary(prevExports, nextExports);
-                if (isNoLongerABoundary || didInvalidate) {
-                    // We'll be conservative. The only case in which we won't do a full
-                    // reload is if all parent modules are also refresh boundaries.
-                    // In that case we'll add them to the current queue.
-                    var parents = getParents();
-                    if (parents.length === 0) {
-                        // Looks like we bubbled to the root. Can't recover from that.
-                        window.location.reload();
-                        return;
-                    }
-                    return parents;
-                }
-                enqueueUpdate();
-            });
-        }
-    }
-};
-function isReactRefreshBoundary(exports) {
-    if (Refresh.isLikelyComponentType(exports)) return true;
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    return false;
-    var hasExports = false;
-    var areAllExportsComponents = true;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        hasExports = true;
-        if (key === "__esModule") continue;
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) // Don't invoke getters for CJS as they may have side effects.
-        return false;
-        var exportValue = exports[key];
-        if (!Refresh.isLikelyComponentType(exportValue)) areAllExportsComponents = false;
-    }
-    return hasExports && areAllExportsComponents;
-}
-function shouldInvalidateReactRefreshBoundary(prevExports, nextExports) {
-    var prevSignature = getRefreshBoundarySignature(prevExports);
-    var nextSignature = getRefreshBoundarySignature(nextExports);
-    if (prevSignature.length !== nextSignature.length) return true;
-    for(var i = 0; i < nextSignature.length; i++){
-        if (prevSignature[i] !== nextSignature[i]) return true;
-    }
-    return false;
-}
-// When this signature changes, it's unsafe to stop at this refresh boundary.
-function getRefreshBoundarySignature(exports) {
-    var signature = [];
-    signature.push(Refresh.getFamilyByType(exports));
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    // (This is important for legacy environments.)
-    return signature;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        if (key === "__esModule") continue;
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) continue;
-        var exportValue = exports[key];
-        signature.push(key);
-        signature.push(Refresh.getFamilyByType(exportValue));
-    }
-    return signature;
-}
-function registerExportsForReactRefresh(module1) {
-    var exports = module1.exports, id = module1.id;
-    Refresh.register(exports, id + " %exports%");
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    // (This is important for legacy environments.)
-    return;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) continue;
-        var exportValue = exports[key];
-        var typeID = id + " %exports% " + key;
-        Refresh.register(exportValue, typeID);
-    }
-}
-
-},{"7422ead32dcc1e6b":"786KC"}],"hsJbF":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$bfed = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$bfed.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _reactRouterDom = require("react-router-dom");
-var _constants = require("../utilis/constants");
-var _react = require("react");
-var _useOnlineStatus = require("../utilis/useOnlineStatus");
-var _useOnlineStatusDefault = parcelHelpers.interopDefault(_useOnlineStatus);
-var _userContext = require("../utilis/UserContext");
-var _userContextDefault = parcelHelpers.interopDefault(_userContext);
-var _reactRedux = require("react-redux");
-var _s = $RefreshSig$();
-const Header = ()=>{
-    _s();
-    const [btnName, setBtnName] = (0, _react.useState)("Login");
-    const onlineStatus = (0, _useOnlineStatusDefault.default)();
-    const { isLoggedUser } = (0, _react.useContext)((0, _userContextDefault.default));
-    const cartItems = (0, _reactRedux.useSelector)((store)=>store.cart.items);
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "header",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "logo-container",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    className: "logo",
-                    src: (0, _constants.LOGO_URL),
-                    alt: "logo"
-                }, void 0, false, {
-                    fileName: "src/components/Header.js",
-                    lineNumber: 16,
-                    columnNumber: 9
-                }, undefined)
-            }, void 0, false, {
-                fileName: "src/components/Header.js",
-                lineNumber: 15,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "nav-items",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: [
-                                "Online Status: ",
-                                onlineStatus ? "\u2714" : "\u274C",
-                                " "
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/components/Header.js",
-                            lineNumber: 20,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                to: "/",
-                                children: "Home"
-                            }, void 0, false, {
-                                fileName: "src/components/Header.js",
-                                lineNumber: 22,
-                                columnNumber: 13
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/components/Header.js",
-                            lineNumber: 21,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                to: "/about",
-                                children: "About Us"
-                            }, void 0, false, {
-                                fileName: "src/components/Header.js",
-                                lineNumber: 25,
-                                columnNumber: 13
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/components/Header.js",
-                            lineNumber: 24,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                to: "/contact",
-                                children: "Contact Us"
-                            }, void 0, false, {
-                                fileName: "src/components/Header.js",
-                                lineNumber: 28,
-                                columnNumber: 13
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/components/Header.js",
-                            lineNumber: 27,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                to: "/grocery",
-                                children: "Grocery"
-                            }, void 0, false, {
-                                fileName: "src/components/Header.js",
-                                lineNumber: 31,
-                                columnNumber: 13
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/components/Header.js",
-                            lineNumber: 30,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                            className: "p-2 bg-green-500 rounded-lg",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                to: "/cart",
-                                children: [
-                                    "Cart(",
-                                    cartItems.length,
-                                    " items)"
-                                ]
-                            }, void 0, true, {
-                                fileName: "src/components/Header.js",
-                                lineNumber: 34,
-                                columnNumber: 13
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/components/Header.js",
-                            lineNumber: 33,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                            className: "btn",
-                            onClick: ()=>{
-                                btnName === "Login" ? setBtnName(isLoggedUser) : setBtnName(isLoggedUser);
-                            },
-                            children: btnName
-                        }, void 0, false, {
-                            fileName: "src/components/Header.js",
-                            lineNumber: 36,
-                            columnNumber: 11
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/Header.js",
-                    lineNumber: 19,
-                    columnNumber: 9
-                }, undefined)
-            }, void 0, false, {
-                fileName: "src/components/Header.js",
-                lineNumber: 18,
-                columnNumber: 7
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "src/components/Header.js",
-        lineNumber: 14,
-        columnNumber: 5
-    }, undefined);
-};
-_s(Header, "0isaHcjdTNE1VzHDso6T3GYqLRM=", false, function() {
-    return [
-        (0, _useOnlineStatusDefault.default),
-        (0, _reactRedux.useSelector)
-    ];
-});
-_c = Header;
-exports.default = Header;
-var _c;
-$RefreshReg$(_c, "Header");
-
-  $parcel$ReactRefreshHelpers$bfed.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react-router-dom":"9xmpe","../utilis/constants":"aff2a","react":"21dqq","../utilis/useOnlineStatus":"khxBw","../utilis/UserContext":"lW7pZ","react-redux":"62sf7","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"aff2a":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "CDN_URL", ()=>CDN_URL);
-parcelHelpers.export(exports, "IMG_URL", ()=>IMG_URL);
-parcelHelpers.export(exports, "LOGO_URL", ()=>LOGO_URL);
-parcelHelpers.export(exports, "MENU_API", ()=>MENU_API);
-const CDN_URL = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/";
-const IMG_URL = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/";
-const LOGO_URL = "https://static.vecteezy.com/system/resources/previews/008/687/818/non_2x/food-delivery-logo-free-vector.jpg";
-const MENU_API = "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=19.0759837&lng=72.8776559&restaurantId=";
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"khxBw":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$1a33 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$1a33.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _react = require("react");
-var _s = $RefreshSig$();
-const useOnlineStatus = ()=>{
-    _s();
-    const [onlineStatus, setOnlineStatus] = (0, _react.useState)(true);
-    // CHECK IF ONLINE , RETURN ONLINE STATUS
-    // ONLINE STATUS IS A BOOLEAN => TRUE or FALSE
-    (0, _react.useEffect)(()=>{
-        window.addEventListener("offline", ()=>{
-            setOnlineStatus(false);
-        });
-        window.addEventListener("online", ()=>{
-            setOnlineStatus(true);
-        });
-    }, []);
-    return onlineStatus;
-};
-_s(useOnlineStatus, "qDLN4CKTUyO1Uktrrx41NP8Q2H4=");
-exports.default = useOnlineStatus;
-
-  $parcel$ReactRefreshHelpers$1a33.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lW7pZ":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$9b5f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$9b5f.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _react = require("react");
-const userContext = /*#__PURE__*/ (0, _react.createContext)({
-    isLoggedUser: "Default User"
-});
-exports.default = userContext;
-
-  $parcel$ReactRefreshHelpers$9b5f.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"8yaV8":[function(require,module,exports) {
+},{"8b38fc6c74f16e20":"21dqq"}],"8yaV8":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$0606 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -41198,13 +41198,13 @@ $RefreshReg$(_c, "Cart");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-redux":"62sf7","./Itemlist":"6Wvye","../utilis/cartSlice":"gSGEw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"30ENU":[function(require,module,exports) {
-module.exports = require("787465c9483ba584")(require("7e02f87da3a0cad8").getBundleURL("bLxZJ") + "Grocery.c52c2ad2.js" + "?" + Date.now()).catch((err)=>{
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-redux":"62sf7","./Itemlist":"6Wvye","../utilis/cartSlice":"gSGEw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"kduSJ":[function(require,module,exports) {
+module.exports = require("decfb8a3f25553a6")(require("cfcabb287ca830f6").getBundleURL("UckoE") + "Grocery.c52c2ad2.js" + "?" + Date.now()).catch((err)=>{
     delete module.bundle.cache[module.id];
     throw err;
 }).then(()=>module.bundle.root("2CCQ0"));
 
-},{"787465c9483ba584":"61B45","7e02f87da3a0cad8":"lgJ39"}],"61B45":[function(require,module,exports) {
+},{"decfb8a3f25553a6":"61B45","cfcabb287ca830f6":"lgJ39"}],"61B45":[function(require,module,exports) {
 "use strict";
 var cacheLoader = require("ca2a84f7fa4a3bb0");
 module.exports = cacheLoader(function(bundle) {
@@ -41301,6 +41301,6 @@ exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
 exports.getOrigin = getOrigin;
 
-},{}]},["farZc","1xC6H","8lqZg"], "8lqZg", "parcelRequire28eb")
+},{}]},["km5uZ","1xC6H","bB7Pu"], "bB7Pu", "parcelRequire28eb")
 
-//# sourceMappingURL=index.975ef6c8.js.map
+//# sourceMappingURL=index.3d214d75.js.map
