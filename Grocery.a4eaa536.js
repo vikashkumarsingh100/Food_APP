@@ -1,0 +1,1 @@
+var e=globalThis.parcelRequire28eb;(0,e.register)("922Vh",function(r,o){Object.defineProperty(r.exports,"__esModule",{value:!0,configurable:!0}),Object.defineProperty(r.exports,"default",{get:()=>i,set:void 0,enumerable:!0,configurable:!0});var t=e("iM5HV"),i=()=>(0,t.jsxs)("h1",{children:["","Our Grocery Store ,and it have a lot of child component inside the web page."]})});
