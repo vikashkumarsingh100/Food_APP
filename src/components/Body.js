@@ -4,7 +4,7 @@ import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utilis/useOnlineStatus";
 import userContext from "../utilis/UserContext";
-
+import json from "../../public/data.json";
 const Body = () => {
   const [listOfRestaurant, setlistOfRestaurant] = useState([]);
   const [filteredRestaurant, setFilteredRestaurant] = useState([]);
@@ -21,14 +21,16 @@ const Body = () => {
     //   "https://www.swiggy.com/dapi/restaurants/list/v5?lat=19.0759837&lng=72.8776559&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
     // );
 
-    const result = await fetch("./data.json");
-    // const swiggyApiUrl =
-    //   "https://www.swiggy.com/dapi/restaurants/list/v5?lat=19.0759837&lng=72.8776559&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING";
-    // const proxyUrl = `https://proxy.corsfix.com/?${encodeURIComponent(
-    //   swiggyApiUrl
-    // )}`;
-    // const result = await fetch(proxyUrl);
-    const json = await result.json();
+    // const result = await fetch("/data.json");
+
+    // // const swiggyApiUrl =
+    // //   "https://www.swiggy.com/dapi/restaurants/list/v5?lat=19.0759837&lng=72.8776559&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING";
+    // // const proxyUrl = `https://proxy.corsfix.com/?${encodeURIComponent(
+    // //   swiggyApiUrl
+    // // )}`;
+    // // const result = await fetch(proxyUrl);
+    // const json = await json1.json();
+    // console.log(json);
 
     setlistOfRestaurant(
       json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants
