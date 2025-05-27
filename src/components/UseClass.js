@@ -6,8 +6,8 @@ class UserClass extends React.Component {
     this.state = {
       count: 0,
       userinfo: {
-        name: "sohma",
-        location: "munbai",
+        name: "Vikash Singh",
+        location: "Noida",
         avatar_url: "",
       },
     };
@@ -46,7 +46,6 @@ class UserClass extends React.Component {
         </button>
         <h3>Location: {location}</h3>
         <img width={85} src={avatar_url} />
-        <h3>Contact: @soham16</h3>
       </div>
     );
   }

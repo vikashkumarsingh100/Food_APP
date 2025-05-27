@@ -5,8 +5,8 @@ const User = ({ name }) => {
 
   return (
     <div className="usercard">
-      <h2>Name:{name} </h2>
-      <div>Count ={count}</div>
+      <h2>Name: Vikash </h2>
+      {/* <div>Count ={count}</div>
       <button
         onClick={() => {
           setCount(count + 1);
@@ -21,7 +21,7 @@ const User = ({ name }) => {
         }}
       >
         -
-      </button>
+      </button> */}
     </div>
   );
 };

@@ -102,7 +102,8 @@ const Body = () => {
         {filteredRestaurant.map((restaurant) => (
           <Link
             key={restaurant.info.id}
-            to={"/restaurant/" + restaurant.info.id}
+            to={"/"}
+            // to={"/restaurant/" + restaurant.info.id}
           >
             {restaurant.info.isOpen ? (
               <RestaurantCardPromoted resData={restaurant} />
